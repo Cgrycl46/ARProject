@@ -1,0 +1,36 @@
+# AR Project
+
+Bu projede artýrýlmýþ gerçeklik (AR) teknolojisini kullanarak bir mobil uygulama geliþtirdik. Uygulama, yüz tanýma ve görsel tanýma teknolojilerini içermektedir. 'Sihirli Sayý' kartýný taradýðýnýzda, belirli yazýlar ekranda görünür.
+
+## SWOT Analizi
+
+### Güçlü Yönler
+- Yüz tanýma ve görsel tanýma teknolojisi kullanýldý.
+- Android platformunda çalýþabilen uygulama.
+- Kullanýcý dostu ve etkileþimli deneyim.
+- AR teknolojilerinin etkili kullanýmý.
+
+### Zayýf Yönler
+- Þu an için animasyonlar veya görsel efektler yok.
+- Uygulama yalnýzca Android cihazlarda çalýþýyor.
+- Görsel tanýma için daha fazla görsel referans eklenebilir.
+
+### Fýrsatlar
+- Uygulama özellikleri, daha fazla platforma taþýnabilir (iOS, Windows).
+- Yüz tanýma ve AR özelliklerinin ticari uygulamalarda kullanýlmasý.
+- Eðitim ve eðlence sektörlerinde geniþ kullaným potansiyeli.
+
+### Tehditler
+- Yüz tanýma teknolojisinin gizlilik endiþeleri yaratmasý.
+- Artýrýlmýþ gerçeklik uygulamalarýnýn telefon özelliklerine baðýmlýlýðý.
+- Teknolojinin hýzla deðiþmesi ve eskiyen özellikler.
+
+## UML Diyagramý
+
+Aþaðýda, uygulamanýn genel mimarisini ve etkileþim akýþlarýný gösteren UML diyagramý bulunmaktadýr.
+
+![UML Diagram](./Assets/Images/uml-diagram.png)
+
+## Proje Linki
+Proje Github üzerinde bulunmaktadýr. Aþaðýdaki linki kullanarak projeyi inceleyebilirsiniz:
+[GitHub Proje Linki](https://github.com/Cgrycl46/ARProject)
