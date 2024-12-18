@@ -27,9 +27,30 @@ Bu projede artýrýlmýþ gerçeklik (AR) teknolojisini kullanarak bir mobil uygulama
 
 ## UML Diyagramý
 
-Aþaðýda, uygulamanýn genel mimarisini ve etkileþim akýþlarýný gösteren UML diyagramý bulunmaktadýr.
++------------------------+          +--------------------------+
+|       ARManager         |<>--------|   ImageRecognitionManager|
+|-------------------------|          |--------------------------|
+| - arSession             |          | - recognizedImages       |
+| - arCamera              |          | - imageLibrary           |
+| - arImageManager        |          |--------------------------|
+|-------------------------|          | + loadImageLibrary()     |
+| + initializeAR()        |          | + recognizeImage()       |
+| + startSession()        |          |--------------------------|
+| + stopSession()         |          +--------------------------+
++-------------------------+
 
-![UML Diagram](./Assets/Images/uml-diagram.png)
+
++-------------------------+          +-------------------------+
+|   FaceRecognitionManager|<>--------|     TextDisplayManager   |
+|-------------------------|          |-------------------------|
+| - faceData              |          | - textToDisplay         |
+| - detectedFaces         |          | - displayedText         |
+|-------------------------|          |-------------------------|
+| + initializeFaceRecognition()|     | + showText()            |
+| + recognizeFace()       |          | + clearText()           |
++-------------------------+          +-------------------------+
+
+
 
 ## Proje Linki
 Proje Github üzerinde bulunmaktadýr. Aþaðýdaki linki kullanarak projeyi inceleyebilirsiniz:
